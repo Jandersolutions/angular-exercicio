@@ -1,5 +1,5 @@
 var pessoasApp = angular
-  .module('pessoas' , [])
+  .module('pessoas' , ['ngRoute'])
   .config(function($routeProvider){
     $routeProvider
       .when('/' , {
